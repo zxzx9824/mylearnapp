@@ -1,0 +1,181 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ task.title }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+<!-- <div class="progress"></div>
+<div>
+    <div>
+        <span>data loading...{{value}}%</span>
+    </div>
+</div>  -->
+  <ion-list>
+    <ion-item>
+      <ngb-progressbar [value]="progress"><span class="ready-head">{{ 'DETAIL-READY' | translate }}</span>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <span class="task-title-head">{{task.title}}</span></ngb-progressbar>
+    </ion-item>
+    <ion-item>
+      <span class="record-head">teacher</span>
+      <ion-toolbar>
+        <ion-buttons start>
+          <button ion-button icon-left [disabled]="acitiveUser.authority==0" (click)="recordForTeacher()" color="primary">
+            <ion-icon name="recording"></ion-icon>
+            Record
+          </button>
+        </ion-buttons>    
+        <ion-buttons start>
+          <button ion-button icon-left [disabled]="acitiveUser.authority==0" (click)="stopRecordForTeacher()" color="primary">
+            <ion-icon name="square"></ion-icon>
+            Stop
+          </button>
+        </ion-buttons>    
+        <ion-buttons end>
+          <button ion-button icon-left (click)="playForTeacher()" color="primary">
+            <ion-icon name="play"></ion-icon>
+            Play
+          </button>
+        </ion-buttons> 
+      </ion-toolbar>   
+    </ion-item>
+    <ion-item>
+      <span class="record-head">student</span>
+      <ion-toolbar>
+        <ion-buttons start>
+          <button ion-button icon-left [disabled]="acitiveUser.authority==1" (click)="recordForStudent()" color="primary">
+            <ion-icon name="recording"></ion-icon>
+            Record
+          </button>
+        </ion-buttons>    
+        <ion-buttons start>
+          <button ion-button icon-left [disabled]="acitiveUser.authority==1" (click)="stopRecordForStudent()" color="primary">
+            <ion-icon name="square"></ion-icon>
+            Stop
+          </button>
+        </ion-buttons>    
+        <ion-buttons end>
+          <button ion-button icon-left (click)="playForStudent()" color="primary">
+            <ion-icon name="play"></ion-icon>
+            Play
+          </button>
+        </ion-buttons> 
+      </ion-toolbar>   
+    </ion-item>
+    <ion-item>
+      <ion-toolbar>
+        <ion-buttons end>
+          <button ion-button icon-left (click)="evulate()" color="primary">
+            <ion-icon name="clipboard"></ion-icon>
+            Check Your Score
+          </button>
+        </ion-buttons> 
+      </ion-toolbar>   
+    </ion-item> 
+    <!--   
+    <ion-item>
+      <ion-toolbar>
+        <ion-buttons start>
+          <button ion-button icon-left (click)="recordLearn()" color="primary">
+            <ion-icon name="recording"></ion-icon>
+            Strat to Record(For Student)
+          </button>
+        </ion-buttons>    
+        <ion-buttons end>
+          <button ion-button icon-left (click)="evulate()" color="primary">
+            <ion-icon name="clipboard"></ion-icon>
+            Resume
+          </button>
+        </ion-buttons> 
+      </ion-toolbar>   
+    </ion-item>
+    <ion-item>
+      <ion-toolbar>
+        <ion-buttons start>
+          <button ion-button icon-left (click)="pause()" color="primary">
+            <ion-icon name="recording"></ion-icon>
+            Pause
+          </button>
+        </ion-buttons>    
+        <ion-buttons end>
+          <button ion-button icon-left (click)="getamp()" color="primary">
+            <ion-icon name="clipboard"></ion-icon>
+            GetAmplitude
+          </button>
+        </ion-buttons> 
+      </ion-toolbar>   
+    </ion-item>
+    <ion-item>
+      <ion-toolbar>
+        <ion-buttons start>
+          <button ion-button icon-left (click)="getCurrentPosition()" color="primary">
+            <ion-icon name="recording"></ion-icon>
+            getCurrentPosition
+          </button>
+        </ion-buttons>    
+        <ion-buttons end>
+          <button ion-button icon-left (click)="getDuration()" color="primary">
+            <ion-icon name="clipboard"></ion-icon>
+            getDuration
+          </button>
+        </ion-buttons> 
+      </ion-toolbar>   
+    </ion-item>
+    <ion-item>
+      <ion-toolbar>
+        <ion-buttons start>
+          <button ion-button icon-left (click)="stop()" color="primary">
+            <ion-icon name="recording"></ion-icon>
+            Stop
+          </button>
+        </ion-buttons>    
+        <ion-buttons end>
+          <button ion-button icon-left (click)="goSeek()" color="primary">
+            <ion-icon name="clipboard"></ion-icon>
+            goSeek10
+          </button>
+        </ion-buttons> 
+      </ion-toolbar>   
+    </ion-item>
+    <ion-item>
+      <ion-toolbar>
+        <ion-buttons start>
+          <button ion-button icon-left (click)="startRecord()" color="primary">
+            <ion-icon name="recording"></ion-icon>
+            StartRecord
+          </button>
+        </ion-buttons>    
+        <ion-buttons end>
+          <button ion-button icon-left (click)="stopRecord()" color="primary">
+            <ion-icon name="clipboard"></ion-icon>
+            StopRecord
+          </button>
+        </ion-buttons> 
+      </ion-toolbar>   
+    </ion-item>
+    <ion-item>
+      <ion-toolbar>
+        <ion-buttons start>
+          <button ion-button icon-left (click)="pauseRecord()" color="primary">
+            <ion-icon name="recording"></ion-icon>
+            PauseRecord
+          </button>
+        </ion-buttons>    
+        <ion-buttons end>
+          <button ion-button icon-left (click)="resumeRecord()" color="primary">
+            <ion-icon name="clipboard"></ion-icon>
+            ResumeRecord
+          </button>
+        </ion-buttons> 
+      </ion-toolbar>   
+    </ion-item>
+    -->    
+  </ion-list> 
+  <div class="question-bg" *ngIf="score==0"></div> 
+  <div class="success-bg" *ngIf="score>=60"></div> 
+  <div class="fail-bg" *ngIf="score<60 && score>0"></div> 
+</ion-content>

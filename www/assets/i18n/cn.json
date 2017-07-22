@@ -1,0 +1,71 @@
+{
+  "BACK_BUTTON_TEXT" : "返回",
+
+  "NAME": "姓名",
+  "EMAIL": "邮件",
+  "USERNAME": "用户名",
+  "PASSWORD": "密码",
+  "LOGIN": "登入",
+  "SIGNUP": "注册",
+
+  "TAB1_TITLE": "项目",
+  "TAB2_TITLE": "检索",
+  "TAB3_TITLE": "设定",
+
+  "MAP_TITLE": "地图",
+
+  "TUTORIAL_SKIP_BUTTON" : "跳过",
+  "TUTORIAL_CONTINUE_BUTTON" : "继续",
+
+  // "TUTORIAL_SLIDE1_TITLE": "欢迎来到Ionic Super Starter",
+  // "TUTORIAL_SLIDE1_DESCRIPTION": "<b> Ionic Super Starter </b>は、多くのビルド済ページとベストプラクティスを備えた、完全な機能をもつIonicのスターターです。",
+
+  // "TUTORIAL_SLIDE2_TITLE": "Super Starterの使い方",
+  // "TUTORIAL_SLIDE2_DESCRIPTION": "いろいろなページタイプの中から欲しいものを組み合わせて、いらないものを取り除いてください。 ログインページ、サインアップページ、タブ、このチュートリアルページなど、一般的なモバイルアプリのページレイアウトをいろいろと提供しています。",
+
+  // "TUTORIAL_SLIDE3_TITLE": "はじめに",
+  // "TUTORIAL_SLIDE3_DESCRIPTION": "ヘルプが必要ですか？完全なチュートリアルについては、Super Starter READMEを参照してください。",
+
+  // "TUTORIAL_SLIDE4_TITLE": "準備ができましたか?",
+
+  // "WELCOME_INTRO" : "あなたのすばらしいIonicアプリの出発点",
+  "WELCOME_LEARN_LANGUAGE": "活到老，学到老，尤其是语言",
+
+  "SETTINGS_TITLE": "设定",
+  // "SETTINGS_OPTION1": "オプション 1",
+  // "SETTINGS_OPTION2": "オプション 2",
+  // "SETTINGS_OPTION3": "オプション 3",
+  // "SETTINGS_OPTION4": "オプション 4",
+
+  // "SETTINGS_PROFILE_BUTTON" : "プロフィールの編集",
+
+  // "SETTINGS_PAGE_PROFILE": "プロフィールの編集",
+
+  "WELCOME_TITLE": "欢迎光临",
+
+  "LOGIN_TITLE": "登入",
+  "LOGIN_ERROR": "登入出现问题啦～",
+  "LOGIN_BUTTON": "登入",
+  "LOGIN_TRIAL": "试用版本（不连接服务器）",
+  "SIGNUP_TITLE": "注册",
+  "SIGNUP_ERROR": "注册出现问题啦",
+  "SIGNUP_BUTTON": "注册",
+  "SIGNUP_TEACHER": "先生",
+
+  "LIST_MASTER_TITLE": "项目",
+
+  "ITEM_CREATE_TITLE": "新的项目",
+  "ITEM_CREATE_CHOOSE_IMAGE": "追加图片",
+
+  "ITEM_NAME_PLACEHOLDER" : "名字",
+  "ITEM_ABOUT_PLACEHOLDER" : "说明",
+
+  "DONE_BUTTON" : "完了",
+  "CANCEL_BUTTON" : "取消",
+  "DELETE_BUTTON" : "删除",
+
+  "CARDS_TITLE": "社区",
+
+  "SEARCH_TITLE": "检索",
+  "SEARCH_PLACEHOLDER" : "检索项目明细 例如 \"Donald Duck\""
+}

@@ -1,0 +1,45 @@
+page-task-detail {
+  .question-bg {
+    position: relative;
+    background: url('../assets/img/questionbg.gif') no-repeat transparent;
+    background-size: 70%;
+    height: 65%;
+    z-index: 1;
+  }
+  .ready-head{
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    color: red;
+  } 
+  .record-head{
+    font-size: 15px;
+    font-weight: 500;
+    color: peru;
+  }     
+  .task-title-head{
+    font-size: 45px;
+    vertical-align: center;
+    font-weight: 500;
+    text-align: right;
+  }
+  .progress-bar{
+    background-color:yellowgreen !important;
+    height: 60px;
+    width: 100%;
+  }
+  .fail-bg {
+    position: relative;
+    background: url('../assets/img/failbg.gif') no-repeat transparent;
+    background-size: 70%;
+    height: 65%;
+    z-index: 1;
+  }
+  .success-bg {
+    position: relative;
+    background: url('../assets/img/successbg.gif') no-repeat transparent;
+    background-size: 70%;
+    height: 65%;
+    z-index: 1;
+  }
+}

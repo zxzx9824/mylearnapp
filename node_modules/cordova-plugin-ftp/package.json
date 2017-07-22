@@ -1,0 +1,96 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-ftp",
+        "scope": null,
+        "escapedName": "cordova-plugin-ftp",
+        "name": "cordova-plugin-ftp",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/zhouxiang/Desktop/demo_4/node_modules"
+    ]
+  ],
+  "_from": "cordova-plugin-ftp@latest",
+  "_id": "cordova-plugin-ftp@1.0.2",
+  "_inCache": true,
+  "_location": "/cordova-plugin-ftp",
+  "_nodeVersion": "4.2.3",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-ftp-1.0.2.tgz_1496234460398_0.1967318244278431"
+  },
+  "_npmUser": {
+    "name": "xfally",
+    "email": "coolwinding@gmail.com"
+  },
+  "_npmVersion": "2.14.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-ftp",
+    "scope": null,
+    "escapedName": "cordova-plugin-ftp",
+    "name": "cordova-plugin-ftp",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-ftp/-/cordova-plugin-ftp-1.0.2.tgz",
+  "_shasum": "30847e949d910b6b502d1dd65c85de6eef68e7f3",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-ftp",
+  "_where": "/Users/zhouxiang/Desktop/demo_4/node_modules",
+  "author": {
+    "name": "pax"
+  },
+  "bugs": {
+    "url": "https://github.com/xfally/cordova-plugin-ftp/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-ftp",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "dependencies": {},
+  "description": "This cordova plugin is created to use ftp (client) in web/js.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "30847e949d910b6b502d1dd65c85de6eef68e7f3",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-ftp/-/cordova-plugin-ftp-1.0.2.tgz"
+  },
+  "gitHead": "91950626bfb9633940647bae9ea8f054f728d206",
+  "homepage": "https://github.com/xfally/cordova-plugin-ftp",
+  "keywords": [
+    "cordova",
+    "ftp",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "Apache-2.0",
+  "maintainers": [
+    {
+      "name": "xfally",
+      "email": "coolwinding@gmail.com"
+    }
+  ],
+  "name": "cordova-plugin-ftp",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xfally/cordova-plugin-ftp.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.2"
+}

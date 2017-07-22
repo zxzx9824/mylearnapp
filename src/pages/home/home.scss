@@ -1,0 +1,15 @@
+page-home {
+  .learn-bg {
+    position: relative;
+    background: url('../assets/img/learnbg.gif') no-repeat transparent;
+    background-size: 30%;
+    height: 25%;
+    z-index: 1;
+  }
+  .pass{
+    background-color:goldenrod !important;
+    height: 30px;
+    width: 100%;
+  }
+}
+

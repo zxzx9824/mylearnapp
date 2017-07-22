@@ -1,0 +1,53 @@
+{
+  "BACK_BUTTON_TEXT" : "返回",
+
+  "NAME": "姓名",
+  "EMAIL": "邮件",
+  "USERNAME": "用户名",
+  "PASSWORD": "密码",
+  "LOGIN": "登入",
+  "SIGNUP": "注册",
+
+  "TAB1_TITLE": "项目",
+  "TAB2_TITLE": "检索",
+  "TAB3_TITLE": "设定",
+
+  "MAP_TITLE": "地图",
+
+  "TUTORIAL_SKIP_BUTTON" : "跳过",
+  "TUTORIAL_CONTINUE_BUTTON" : "继续",
+
+  "WELCOME_LEARN_LANGUAGE": "活到老，学到老，尤其是语言",
+
+  "SETTINGS_TITLE": "设定",
+  
+  "WELCOME_TITLE": "欢迎光临",
+
+  "LOGIN_TITLE": "登入",
+  "LOGIN_ERROR": "登入出现问题啦～",
+  "LOGIN_BUTTON": "登入",
+  "LOGIN_TRIAL": "试用版本（不连接服务器）",
+  "SIGNUP_TITLE": "注册",
+  "SIGNUP_ERROR": "注册出现问题啦",
+  "SIGNUP_BUTTON": "注册",
+  "SIGNUP_TEACHER": "教师",
+
+  "LIST_MASTER_TITLE": "项目",
+
+  "ITEM_CREATE_TITLE": "新的项目",
+  "ITEM_CREATE_CHOOSE_IMAGE": "追加图片",
+
+  "ITEM_NAME_PLACEHOLDER" : "名字",
+  "ITEM_ABOUT_PLACEHOLDER" : "说明",
+
+  "DONE_BUTTON" : "完了",
+  "CANCEL_BUTTON" : "取消",
+  "DELETE_BUTTON" : "删除",
+
+  "CARDS_TITLE": "社区",
+
+  "DETAIL-READY": "准备朗读",
+
+  "SEARCH_TITLE": "检索",
+  "SEARCH_PLACEHOLDER" : "检索项目明细 例如 \"Donald Duck\""
+}

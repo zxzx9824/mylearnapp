@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar color="royal">
+    <ion-title>{{activeKategori.title}}</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only [disabled]="acitiveUser.authority==0" (click)="newTask()">
+        <ion-icon name="add"></ion-icon>
+      </button>
+    </ion-buttons>    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding scroll="false">
+    <div class="learn-bg"></div>
+    <!-- 列表 -->
+    <ion-list>
+      <ion-item-sliding *ngFor="let task of activeKategori.tasks">
+      <button ion-item (click)="openTask(task)">        
+        <ion-item>
+          <ion-icon item-left></ion-icon>
+            <div class="item-note" *ngIf="task.pass==0" item-left>
+              {{task.title}}
+            </div>
+            <div class="item-note" *ngIf="task.pass==1" class="pass" item-left>
+              {{task.title}}
+            </div>
+        </ion-item>        
+      </button>
+        <ion-item-options>
+          <button ion-button color="danger" [disabled]="acitiveUser.authority==0" (click)="deleteTask(task)">
+            {{ 'DELETE_BUTTON' | translate }}
+          </button>
+        </ion-item-options>        
+      </ion-item-sliding>
+    </ion-list>
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-buttons start>
+      <button ion-button icon-only (click)="logOut()" color="primary">
+        <ion-icon name="log-out"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="uploadTask()" color="primary">
+        <ion-icon name="cloud-upload"></ion-icon>
+      </button>
+      <button ion-button icon-only (click)="downloadTask()" color="primary">
+        <ion-icon name="cloud-download"></ion-icon>
+      </button>
+    </ion-buttons> 
+  </ion-toolbar>
+</ion-footer>

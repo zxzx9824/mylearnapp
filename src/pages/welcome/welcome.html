@@ -1,0 +1,13 @@
+<ion-content scroll="false">
+  <div class="welcome-bg"></div>
+  <div class="learn-info">
+    <!--<div class="splash-logo"></div>-->
+    <div class="learn-intro">
+      {{ 'WELCOME_LEARN_LANGUAGE' | translate }}
+    </div>
+  </div>
+  <div padding>
+    <button ion-button block (click)="signup()" class="signup">{{ 'SIGNUP' | translate }}</button>
+    <button ion-button block (click)="login()" class="login">{{ 'LOGIN' | translate }}</button>
+  </div>
+</ion-content>
