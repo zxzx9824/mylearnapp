@@ -44,6 +44,7 @@ export class HomePage {
    if (navParams.get('kategori') != null){
      this.activeKategori = navParams.get('kategori');
      return;
+     
    }
    //prompt(String(this.kategorisPro.getLastActiveIndex()));
    //prompt(index);
